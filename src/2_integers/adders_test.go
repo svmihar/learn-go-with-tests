@@ -8,5 +8,4 @@ func TestAdder(t *testing.T) {
 	if sum != expected {
 		t.Errorf("expected '%d' but got '%d'", expected, sum)
 	}
-
 }
